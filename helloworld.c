@@ -1,8 +1,9 @@
 #include <stdio.h>
 
 int main(void){
-    char name[15] = "Wakefield Batty";
-    printf("Hello World");
-    printf(" Welcome %s\n", name);
+    char add[100];
+    printf(" Please give me your name: \n");
+    fgets(add, sizeof(add), stdin);
+    printf(" Welcome %s\n", add);
     return 0;
 }
