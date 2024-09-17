@@ -22,13 +22,13 @@ int main(void){
     putilities = utilities / income * 100;
     pgrocieries = grocieries / income * 100;
     ptransportation = transportation / income * 100;
-     psavings = savings / income * 100;
-     pexpenses = expenses / income * 100;
-     printf(" your rent is %d%% of your income.\n", (int) prent);
-      printf(" your rent is %d%% of your income.\n", (int) putilities);
-       printf(" your rent is %d%% of your income.\n", (int) pgrocieries);
-        printf(" your rent is %d%% of your income.\n", (int) ptransportation);
-         printf(" your rent is %d%% of your income.\n", (int) psavings);
-          printf(" your rent is %d%% of your income.\n", (int) pexpenses);
+    psavings = savings / income * 100;
+    pexpenses = expenses / income * 100;
+    printf(" your rent is %d%% of your income.\n", (int) prent);
+    printf(" your utilities are %d%% of your income.\n", (int) putilities);
+    printf(" your groceries are %d%% of your income.\n", (int) pgrocieries);
+    printf(" your transportation is %d%% of your income.\n", (int) ptransportation);
+    printf(" your savings are %d%% of your income.\n", (int) psavings);
+    printf(" your expenses are %d%% of your income.\n", (int) pexpenses);
     return 0;
 }
