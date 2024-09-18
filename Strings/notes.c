@@ -8,5 +8,6 @@ int main(void){
     printf("%s\n", prefix);
     strcat(prefix, lname);
     printf("%s\n", prefix);
+    printf("%d\n", strlen(prefix));
     return 0;
 }
