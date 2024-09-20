@@ -13,11 +13,11 @@ char sentence[400] = "The ";
     printf("Name a verb: \n");
     scanf("%s", verb);
     strcat(sentence, animal);
-    strcat(sentence, "went to the ");
+    strcat(sentence, " went to the ");
     strcat(sentence, place);
-    strcat(sentence, "and ");
+    strcat(sentence, " and did ");
     strcat(sentence, verb);
-    strcat(sentence, "with his friend the angry turtle.\n");
+    strcat(sentence, " with his friend the angry turtle.\n");
     printf("%s", sentence);
     return 0;
 }
