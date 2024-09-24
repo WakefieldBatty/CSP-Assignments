@@ -1,11 +1,15 @@
 #include <stdio.h>
 
+void function(char name[100]){
+printf("Hello %s\n", name);
+}
+
 int main(void){
-    char add[100];
-    printf(" Please give me your name: \n");
-    fgets(add, sizeof(add), stdin);
-    printf(" Welcome %s\n", add);
-    float num = (int) pow(4,3)*4/2;
-    printf("%d", num);
+    function("Wakefield");
+    function("Dave");
+    function("Pablo");
+    function("Tina");
+    function("Undadabrij");
+    //Undadabrij is the name of one of my World of Warcraft characters. He is a Zandelari troll
     return 0;
 }
