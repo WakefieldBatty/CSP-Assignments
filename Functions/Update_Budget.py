@@ -3,7 +3,7 @@ def input_a(type, var):
     var = input("Monthly :", type);
     return f"{var}";
 
-# I'm really sorry, I tried really hard on this and couldn't figure it out the percent function part of the assignment.
+# I'm really sorry, I tried really hard on this and couldn't figure it out. I was able to figure out the percent function part of the assignment.
 
 def percent(type, amount):
     per = int(amount)/int(income)*100;
