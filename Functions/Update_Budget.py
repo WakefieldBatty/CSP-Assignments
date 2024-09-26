@@ -1,9 +1,7 @@
-def input_a(type, var):
+def input_a(type):
 
-    var = input("Monthly :", type);
-    return f"{var}";
+    return int(input(f"Monthly {type}:"))
 
-# I'm really sorry, I tried really hard on this and couldn't figure it out. I was able to figure out the percent function part of the assignment.
 
 def percent(type, amount):
     per = int(amount)/int(income)*100;
@@ -11,11 +9,11 @@ def percent(type, amount):
 
 
 print("This is a finance calculator!");
-income = input("How much is your monthly income?: ");
-rent = input("How much is your rent?: ");
-utilities = input("How much are your utilities?: ");
-groceries = input("How much are your groceries?: ");
-transport = input("How much are your transportation costs?: ");
+income = input_a("income");
+rent = input_a("rent");
+utilities = input_a("utilities");
+groceries = input_a("groceries");
+transport = input_a("transport");
 expenses = int(utilities)+int(groceries)+int(transport)+int(rent);
 savings = int(income)*.1;
 spend = int(income)-int(expenses)-int(savings);
