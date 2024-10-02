@@ -1,4 +1,11 @@
-time = input("What time is it right now in military time?: ")
+import datetime
+
+currentTime = datetime.datetime.now()
+
+print(currentTime.hour)
+
+
+
 int(time)
 if int(time) <= 12:
     print("Good morning!")
@@ -9,4 +16,4 @@ elif int(time) <= 21:
 elif int(time) <= 24:
     print("why are you up this late using this code?")
 
-#(*-*)
+#(._.)
